@@ -10,6 +10,8 @@ This Data Manager class is responsible for getting and updating information in t
 
 **Step 1. Getting city data in the Google Sheet by using Sheety.**
 
+**Step 2. Updating city data to the Google Sheet by using Sheety.**
+
 ```py
 import requests
 
@@ -22,7 +24,6 @@ class DataManager:
     @classmethod
     def GetCityInfo(cls):
         response = requests.get(sheety_endpoint)
-        city_info = response.json()
+        city_info = response.json()['prices']
         return city_info
 ```
-
