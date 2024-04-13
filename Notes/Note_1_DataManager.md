@@ -10,6 +10,12 @@ This Data Manager class is responsible for getting and updating information in t
 
 **Step 1. Getting city data in the Google Sheet by using Sheety.**
 
+After getting data by using Sheet API, notice that if the content of one column is empty, it won't return any result, so if the initial `IATA Code` column is empty when we get the data and print the result, it won't contain any value relates to `IATA Code` like this:
+
+<div align=center>
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/22e7c7f6-f95f-416c-95a6-88028420bbec">
+</div>
+
 **Step 2. Updating city data to the Google Sheet by using Sheety.**
 
 ```py
