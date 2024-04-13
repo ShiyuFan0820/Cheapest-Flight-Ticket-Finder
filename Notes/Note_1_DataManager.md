@@ -6,9 +6,9 @@ I already created a spreadsheet in Google Sheets and filled in the city where I 
 <img width="351" alt="image" src="https://github.com/ShiyuFan0820/CSLearningNote/assets/149340606/ed9d5f17-f992-4e16-9653-1f0877b7b195">
 </div>
 
-This Data Manager class is responsible for getting and updating information in the Google Sheets with Sheety API.
+This Data Manager class is responsible for getting and updating information in the Google Sheet with Sheety API.
 
-**Step 1. Getting city data in the Google Sheets by using Sheety.**
+**Step 1. Getting city data in the Google Sheet by using Sheety.**
 
 ```py
 import requests
