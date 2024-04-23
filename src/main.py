@@ -29,5 +29,4 @@ date_to = six_months_from_tomorrow.strftime("%d/%m/%Y")
 for city in cities_info:
     to_city_code = city["iataCode"]
     flights = FlightSearch.SearchFlight(from_city_code, to_city_code, date_from, date_to)
-
-
+    
