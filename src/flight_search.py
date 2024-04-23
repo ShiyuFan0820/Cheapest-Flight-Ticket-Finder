@@ -25,7 +25,7 @@ class FlightSearch:
         return city_code
 
     @classmethod
-    def SearchFlight(cls, fly_from, fly_to, date_from, date_to, nights_in_dis_from=7, nights_in_dst_to=30, adults=1, children=0, infants=0, selected_cabins="M", curr="GBP", max_stopovers=0, one_for_city=1):
+    def SearchFlight(cls, fly_from, fly_to, date_from, date_to, adults=1, children=0, infants=0, selected_cabins="M", curr="GBP", max_stopovers=0, one_for_city=0, ret_from_diff_city=False, ret_to_diff_city=False):
         search_endpoint = f"{tequila_endpoint}/v2/search"
         headers = {
             "apikey": tequila_api_key
@@ -35,15 +35,15 @@ class FlightSearch:
             "fly_to": fly_to,
             "date_from": date_from,
             "date_to": date_to,
-            "nights_in_dis_from": nights_in_dis_from,
-            "nights_in_dst_to": nights_in_dst_to,
             "adults": adults,
             "children": children,
             "infants": infants,
             "selected_cabins": selected_cabins,
             "curr": curr,
             "max_stopovers": max_stopovers,
-            "one_for_city": one_for_city
+            "one_for_city": one_for_city,
+            "ret_from_diff_city": ret_from_diff_city,
+            "ret_to_diff_city": ret_to_diff_city
         }
         response = requests.get(
             url=search_endpoint,
@@ -56,5 +56,4 @@ class FlightSearch:
             print(f"No flights found from {fly_from} to {fly_to}.")
             return None
         return response.json()
-
 
