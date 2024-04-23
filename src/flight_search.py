@@ -55,5 +55,5 @@ class FlightSearch:
         except IndexError:
             print(f"No flights found from {fly_from} to {fly_to}.")
             return None
-        return response.json()
+        return response.json()["data"]
 
