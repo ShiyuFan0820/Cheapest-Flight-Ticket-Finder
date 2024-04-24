@@ -19,7 +19,7 @@ for row in cities_info:
 # Use sheety API to update the city code on the Google Sheet.
 DataManager.UpdateCityCode(cities_info)
 
-# Search for the flight prices from one city to all the destinations in the Google Sheet.
+# Search for the flight prices from one city to all the destinations in the Google Sheet and collect the result.
 from_city = "London"
 from_city_code = city_code = FlightSearch.SearchCityCode(from_city)
 tomorrow = datetime.now() + timedelta(days=1)
@@ -29,4 +29,24 @@ date_to = six_months_from_tomorrow.strftime("%d/%m/%Y")
 for city in cities_info:
     to_city_code = city["iataCode"]
     flights_data = FlightSearch.SearchFlight(from_city_code, to_city_code, date_from, date_to)
-    
+    for flight in flights_data:
+        from_airport = flight["flyFrom"]
+        to_airport = flight["flyTo"]
+        dep_time = flight["local_departure"].split("T")[1].split(".")[0] # Only extract the time.
+        arr_time = flight["local_arrival"].split("T")[1].split(".")[0] # Only extract the time.
+        price = flight["price"]
+        try:
+            city["flight"]
+        except KeyError:
+            city["flight"] = []
+        finally:
+            city["flight"].append(
+                {
+                    "fromAirport": from_airport,
+                    "toAirport": to_airport,
+                    "departureTime": dep_time,
+                    "arrivalTime": arr_time,
+                    "price": price
+                }
+            )
+
