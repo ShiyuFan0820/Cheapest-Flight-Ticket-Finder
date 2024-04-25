@@ -33,6 +33,12 @@ Suppose we want to find the cheapest flights from London to other cities within 
 <img width="400" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/28983520-46c5-4649-a395-e2846eb7f4d2">
 </div>
 
+- If you don't log in to Google Sheets and Sheety API with the same account, your spreadsheet can't connect with Sheety API.
+
+<div align=center>
+<img width="400" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/6304a89f-5934-4e0c-8d9c-615c1bc173fc">
+</div>
+
 
 
   
