@@ -39,7 +39,7 @@ Suppose we want to find the cheapest flights from London to other cities within 
 <img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/6304a89f-5934-4e0c-8d9c-615c1bc173fc">
 </div>
 
-- Open all access limitations of your project in Sheety API, and then it's all set.
+- Open all access limitations of your project in Sheety API, and then your Sheety API is all set.
 
 <div align=center>
 <img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/5b8bae34-6852-4343-8112-eb9f2f8aa066">
