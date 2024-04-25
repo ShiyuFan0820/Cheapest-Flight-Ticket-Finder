@@ -18,18 +18,4 @@ After getting data by using Sheet API, notice that if the content of one column 
 
 **Step 2. Updating city data to the Google Sheet by using Sheety.**
 
-```py
-import requests
-
-sheety_endpoint = "https://api.sheety.co/596407487435113fa1b524e86a87b95d/flightDeal/prices"
-
-
-class DataManager:
-    # This class is responsible for talking to the Google Sheet.
-    ## Define a method to get the city names from the Google Sheet.
-    @classmethod
-    def GetCityInfo(cls):
-        response = requests.get(sheety_endpoint)
-        city_info = response.json()['prices']
-        return city_info
-```
+**Step 3. Write a similar method to update the cheapest flight information.**
