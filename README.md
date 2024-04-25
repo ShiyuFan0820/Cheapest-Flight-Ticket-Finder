@@ -19,26 +19,31 @@ Suppose we want to find the cheapest flights from London to other cities within 
 - Create a free account for Sheety API, and sign in with your Google Sheet account. Don't forget to open the access when signing in to your account.
 
 <div align=center>
-<img width="400" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/37a5fb5f-1a66-48d0-a0fa-94cd344f9b78">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/37a5fb5f-1a66-48d0-a0fa-94cd344f9b78">
 </div>
 
 - After entering your Sheety API account, create a new project from Google Sheets, and paste your Google Sheet URL in the place it shows you.
 
 <div align=center>
-<img width="400" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/bc07592a-3786-4e0f-980f-0c3f04d91609">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/bc07592a-3786-4e0f-980f-0c3f04d91609">
 </div>
 
 
 <div align=center>
-<img width="400" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/28983520-46c5-4649-a395-e2846eb7f4d2">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/28983520-46c5-4649-a395-e2846eb7f4d2">
 </div>
 
-- If you don't log in to Google Sheets and Sheety API with the same account, your spreadsheet can't connect with Sheety API.
+- If you don't log in to Google Sheets and Sheety API with the same account, your spreadsheet can't be edited with Sheety API.
 
 <div align=center>
-<img width="400" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/6304a89f-5934-4e0c-8d9c-615c1bc173fc">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/6304a89f-5934-4e0c-8d9c-615c1bc173fc">
 </div>
 
+- Open all access limitations of your project in Sheety API, and then it's all set.
+
+<div align=center>
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/5b8bae34-6852-4343-8112-eb9f2f8aa066">
+</div>
 
 
   
