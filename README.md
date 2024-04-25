@@ -45,8 +45,8 @@ Suppose we want to find the cheapest flights from London to other cities within 
 <img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/5b8bae34-6852-4343-8112-eb9f2f8aa066">
 </div>
 
-
-  
+4. Tequila Flight Search API
+- 
 
 
 
