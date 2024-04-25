@@ -18,4 +18,6 @@ After getting data by using Sheet API, notice that if the content of one column 
 
 **Step 2. Updating city data to the Google Sheet by using Sheety.**
 
+Use `request.put` to add content to the row, use `id` to indicate which row of values to modify.
+
 **Step 3. Write a similar method to update the cheapest flight information.**
