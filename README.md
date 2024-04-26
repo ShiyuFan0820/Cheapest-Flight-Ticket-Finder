@@ -54,7 +54,7 @@ Suppose we want to find the cheapest flights from London to other cities within 
 
 - Choose `Meta Search API integration`, and choose `One-way and Return` and save. Then, your Tequila Flight Search API is all set. You can go to the [documentation page](https://tequila.kiwi.com/portal/docs/tequila_api) to check how to make a request.
 <div align=center>
-<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/e7b4c219-8bae-4d81-a58d-29888e56b118">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/b3f2e5dc-6f06-4bd1-b80c-b318b914fc6a">
 </div>
 
 <div align=center>
