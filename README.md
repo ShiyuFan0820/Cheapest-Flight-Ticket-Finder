@@ -19,7 +19,7 @@ Suppose we want to find the cheapest flights from London to other cities within 
 - Create a free account for Sheety API, and sign in with your Google Sheet account. Don't forget to open the access when signing in to your account.
 
 <div align=center>
-<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/37a5fb5f-1a66-48d0-a0fa-94cd344f9b78">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/69e40039-a52c-4c05-a54a-18682873583a">
 </div>
 
 - After entering your Sheety API account, create a new project from Google Sheets, and paste your Google Sheet URL in the place it shows you.
@@ -42,7 +42,7 @@ Suppose we want to find the cheapest flights from London to other cities within 
 - Open all access limitations of your project in Sheety API, and then your Sheety API is all set.
 
 <div align=center>
-<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/5b8bae34-6852-4343-8112-eb9f2f8aa066">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/f3e65386-85ef-49b9-b167-9321dc3d115c">
 </div>
 
 4. Tequila Flight Search API
@@ -54,11 +54,11 @@ Suppose we want to find the cheapest flights from London to other cities within 
 
 - Choose `Meta Search API integration`, and choose `One-way and Return` and save. Then, your Tequila Flight Search API is all set. You can go to the [documentation page](https://tequila.kiwi.com/portal/docs/tequila_api) to check how to make a request.
 <div align=center>
-<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/b3f2e5dc-6f06-4bd1-b80c-b318b914fc6a">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/81590ffd-7aa2-4e7a-a55a-676c6a00e7aa">
 </div>
 
 <div align=center>
-<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/bebb2200-730d-4518-b642-51ce310562ce">
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/1ce9fd4c-f29a-4717-ba5d-0fac4e3e6d4a">
 </div>
 
 5. Download the Python code file in the directory `src` and open files in Pycharm or other code editors.
