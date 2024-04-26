@@ -19,11 +19,12 @@ for row in cities_info:
         row['iataCode'] = city_code
 
 # Search for the flight prices from one city to all the destinations in the Google Sheet and collect the result.
+## Replace it with your own departure city.
 from_city = "London"
 from_city_code = city_code = FlightSearch.SearchCityCode(from_city)
 tomorrow = datetime.now() + timedelta(days=1)
 date_from = tomorrow.strftime("%d/%m/%Y")
-six_months_from_tomorrow = datetime.now() + timedelta(days=(4 * 30))
+six_months_from_tomorrow = datetime.now() + timedelta(days=(3 * 30))
 date_to = six_months_from_tomorrow.strftime("%d/%m/%Y")
 update_data = []
 for city_info in cities_info:
@@ -38,6 +39,7 @@ for city_info in cities_info:
             arr_date = flight["local_arrival"].split("T")[0]
             arr_time = flight["local_arrival"].split("T")[1].split(".")[0] # Only extract the time.
             price = flight["price"]
+            order_link = flight["deep_link"]
             try:
                 city_info["flight"]
             except KeyError:
@@ -51,7 +53,8 @@ for city_info in cities_info:
                         "departure_time": dep_time,
                         "arrival_date": arr_date,
                         "arrival_time": arr_time,
-                        "price": price
+                        "price": price,
+                        "order_link": order_link
                     }
                 )
         # After finding all flights, then find the cheapest flight.
@@ -65,5 +68,4 @@ for city_info in cities_info:
         )
 # Update the cheapest flight information to Google sheet
 DataManager.UpdateCheaptestFlight(update_data)
-
 
