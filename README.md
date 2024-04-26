@@ -1,6 +1,6 @@
-# Cheapest-Flight-Ticket-Finder (Updating)
+# Cheapest-Flight-Ticket-Finder
 
-This project aims to use related API to find the cheapest flight ticket from one location to another from tomorrow of current date to 3 months later, and format the result in a Spreadsheet.
+This project aims to use related API to find the cheapest flight ticket from one location to another from tomorrow of the current date to 3 months later, and format the result in a Spreadsheet.
 
 ## Example
 
@@ -61,6 +61,9 @@ Suppose we want to find the cheapest flights from London to other cities within 
 <img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/bebb2200-730d-4518-b642-51ce310562ce">
 </div>
 
+5. Download the Python code file in the directory `src` and open files in Pycharm or other code editors.
+6. Replace the code where I marked it should be replaced.
+7. Run the `main.py` script and get results in your Google Sheet.
 
 
 
