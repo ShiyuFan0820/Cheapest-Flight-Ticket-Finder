@@ -1,5 +1,6 @@
 import requests
 
+# Replace them with your own endpoint and API key.
 tequila_endpoint = "https://api.tequila.kiwi.com"
 tequila_api_key = "yMehLUMCrfKBZ5wANlk1tYZVh70fBFXG"
 
