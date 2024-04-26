@@ -1,5 +1,6 @@
 import requests
 
+# Replace it with your own endpoint.
 sheety_endpoint = "https://api.sheety.co/596407487435113fa1b524e86a87b95d/flightDeal/prices"
 
 class DataManager:
@@ -51,7 +52,8 @@ class DataManager:
                     "departureDate": row["cheapest_flight"]["departure_date"],
                     "departureTime": row["cheapest_flight"]["departure_time"],
                     "arrivalDate": row["cheapest_flight"]["arrival_date"],
-                    "arrivalTime": row["cheapest_flight"]["arrival_time"]
+                    "arrivalTime": row["cheapest_flight"]["arrival_time"],
+                    "orderLink": row["cheapest_flight"]["order_link"]
                 }
             }
             response = requests.put(
@@ -60,4 +62,3 @@ class DataManager:
             )
             print(f"{row["city"]}'s flight information has been updated successfully.")
         return
-
