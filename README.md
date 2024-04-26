@@ -12,7 +12,7 @@ Suppose we want to find the cheapest flights from London to other cities within 
 ## Instructions for Use 
 
 1. [Flight Deal Google Sheet](https://docs.google.com/spreadsheets/d/1ccQtFQE5aoiHjkyCRJJ4hPTghZLmrfm4bqOYlNipnrM/edit#gid=0), open this link, create your own Google Sheet acount and make your own copy of the starting Google Sheet, I already fill in some city names, you can change them to the city that you want to go. It should be noted that the `IATA Code` in the spreadsheet is **International Air Transport Association** code, which is a three-letter code assigned to the airport around the world, These codes are used for airline ticketing, flight planning, and baggage handling. They provide a standardized way to identify airports globally. But a city can have multiple airports, and here, I will only collect the city code, not the airport code.
-2. Sign in to these API websites, you will use them in the code later.
+2. Sign up to these API websites, you will use them in the code later.
 - [Google Sheet Data Management -- Sheety API](https://sheety.co/)
 - [Tequila Flight Search API Documentation](https://tequila.kiwi.com/portal/docs/tequila_api)
 3. Sheety API
@@ -46,7 +46,20 @@ Suppose we want to find the cheapest flights from London to other cities within 
 </div>
 
 4. Tequila Flight Search API
-- 
+- Create a free personal account for Tequila API.
+- Create a solution in the tools bar `My solutions`.
+<div align=center>
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/f1cc9b71-d316-4084-a2f3-ee6caba3ec29">
+</div>
+
+- Choose `Meta Search API integration`, and choose `One-way and Return` and save. Then, your Tequila Flight Search API is all set. You can go to the [documentation page](https://tequila.kiwi.com/portal/docs/tequila_api) to check how to make a request.
+<div align=center>
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/e7b4c219-8bae-4d81-a58d-29888e56b118">
+</div>
+
+<div align=center>
+<img width="500" alt="image" src="https://github.com/ShiyuFan0820/CheapestFlightTicketFinder/assets/149340606/bebb2200-730d-4518-b642-51ce310562ce">
+</div>
 
 
 
