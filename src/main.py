@@ -21,7 +21,7 @@ for row in cities_info:
 # Search for the flight prices from one city to all the destinations in the Google Sheet and collect the result.
 ## Replace it with your own departure city.
 from_city = "London"
-from_city_code = city_code = FlightSearch.SearchCityCode(from_city)
+from_city_code = FlightSearch.SearchCityCode(from_city)
 tomorrow = datetime.now() + timedelta(days=1)
 date_from = tomorrow.strftime("%d/%m/%Y")
 six_months_from_tomorrow = datetime.now() + timedelta(days=(3 * 30))
