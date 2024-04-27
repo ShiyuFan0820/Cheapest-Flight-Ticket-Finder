@@ -1,6 +1,6 @@
 # Cheapest Flight Ticket Finder
 
-This project aims to use related API to find the cheapest flight ticket from one location to another from tomorrow of the current date to 3 months later, and format the result in a Spreadsheet.
+This project aims to use related API to find the cheapest direct flight ticket from one location to another from tomorrow of the current date to 3 months later, and format the result in a Spreadsheet.
 
 ## Example
 
